@@ -30,6 +30,7 @@ body {
 }
 html {
     font-size: 18px;
+    font-family: "MyriadProRegular";
 }
 header {
     width: 100%;
@@ -52,6 +53,7 @@ section {
 }
 .content {
     position: relative;
+    margin: 0 auto;
 }
 .center-circle {
     border-radius: 100%;
@@ -60,9 +62,6 @@ section {
     margin: 0 auto;
 }
 .circle-item-txt {
-    font-family: "MyriadProRegular";
-    font-style: normal;
-    font-weight: normal;
     font-size: 1.2rem;
     color: #000;
 }
@@ -136,9 +135,6 @@ section {
     margin-bottom: 18px;
 }
 .like-share-block-descr {
-    font-family: "MyriadProRegular";
-    font-style: normal;
-    font-weight: normal;
     font-size: 1rem;
     color: #000;
 }
@@ -160,6 +156,7 @@ section {
     height: 45px;
     line-height: 42px;
     margin: 0 auto;
+    font-family: MyriadProBold;
 
 }
 .list {
@@ -178,6 +175,13 @@ section {
     width: 47.9%;
     margin-bottom: 60px;
 }
+.list-item:hover {
+    background-color: #fafafa;
+}
+.list-item:focus {
+    background-color: #dada;
+}
+
 .list-item-img {
     width: 100%;
     height: 198px;
@@ -416,8 +420,6 @@ footer {
     }
     .content {
         width: 280px;
-        margin: 0 auto;
-
     }
     .center-circle {
         width: 200px;
