@@ -180,6 +180,7 @@ section {
 }
 .list-item:focus {
     background-color: #dada;
+    outline: none;
 }
 
 .list-item-img {
